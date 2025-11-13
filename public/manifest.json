@@ -1,0 +1,78 @@
+{
+  "name": "MoEYs Exam Platform",
+  "short_name": "MoEYs Exam",
+  "description": "Ministry of Education, Youth and Sport Exam Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/moeys-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/moeys-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Go to home page",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/moeys-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Provinces",
+      "short_name": "Provinces",
+      "description": "View provinces",
+      "url": "/provinces",
+      "icons": [
+        {
+          "src": "/moeys-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "short_name": "Admin",
+      "description": "Admin panel",
+      "url": "/admin",
+      "icons": [
+        {
+          "src": "/moeys-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/moeys-logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
